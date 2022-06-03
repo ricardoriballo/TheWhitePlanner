@@ -1,0 +1,60 @@
+body{
+    font-family: "Work Sans", Helvetica, Arial, Lucida, sans-serif;
+    background-color: #fffdfa;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin:20px;
+    font-size: 16px;
+    font-weight:650;
+}
+
+.logoContainer{
+    display: flex;
+    width: 65%;
+
+
+}
+img{
+    width:40%;
+}
+
+.navBtn{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    align-items: center;
+}
+
+
+.wedding{
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.novios{
+    cursor: pointer;
+    padding-right: 50px;
+    padding-bottom: 3px;
+}
+
+button{
+    margin-left: 30px;
+    font-weight: bold;
+    width: 30%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    color: #79A7F3;
+    border:2px solid #79A7F3;
+  
+}
+
+button:hover{
+    background-color: #79A7F3;
+    color: white;
+    transition: 0.2s linear;
+    
+}
